@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rarely Seen History</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="styles.css"> <!-- from the SCSS file -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="properties_selectors.css">
+	<style>
+		@media (min-width:500px){
+			body{
+				background-color:#81ecec;
+			}
+		}
+		@media (max-width:499px){
+			body{
+				background-color:#00cec9;
+			}
+		}
+	
+		.row > div{
+			padding:20px;
+			background-color:white;
+			border:4px solid teal;
+			margin-left:200px;
+		}
+		
+		.grid{
+			background-color:teal;
+			margin-top:20px;
+			display:grid;
+			padding:20px;
+			grid-column-gap:20px;
+			grid-row-gap:10px;
+			grid-template-columns:auto auto; <!-- could also be auto auto auto; -->
+		}
+		
+		.grid-item{
+			background-color:white;
+			font-size:20px;
+			padding:20px;
+			text-align:center;
+		}
+	</style>
+</head>
+<body>
+	<h1>The Aral Sea</h1>
+		<h3>Topics:</h3>
+		<ul>
+			<div class="good"><li><a href="index.html">Before anything bad happened</a></li></div>
+			<div class="warning"><li><a href="theidea.html">Then someone had a bad idea..</a></li></div>
+			<div class="neutral"><li><a href="save.html">A heroic idea to save everything</a></li></div>
+			<div class="bad"><li><a href="after.html">The Aftermath</a></li></div>
+		</ul>
+	<h2>Then someone had a bad idea..</h2>
+		<div class="container">
+	<div class="row">
+		<div class="col-lg-3 col-sm-6">
+			But at the end of the 40s the sovjets decided to build irrigation canals, along
+			the streams which the Aral sea was fed by. They did this, so they can produce
+			rice, melons and cotton on the drought areas of the Kara-kum desert. 
+		</div>
+		
+		<div class="col-lg-3 col-sm-6">
+			The idea was made happen and it brought results with it. Well, Uzbekistan
+			did not become the world's greatest rice producer, but because of the 
+			immoderate water abstraction, the sea's level began to sink unstoppably.
+		</div>
+	</div>
+</div>
+
+<div class="grid">
+		<div class="grid-item"><img src="dry.gif"></div>
+		<div class="grid-item"><img src="dry2.jpg"></div>
+</div>		
+</body>
+</html>

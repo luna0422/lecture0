@@ -1,0 +1,60 @@
+$align:center;
+
+h2{
+	text-align:$align;
+}
+
+h1{
+	text-align:$align;
+}
+
+%message{
+	border:2px solid black;
+}
+
+.good{
+	@extend %message;
+	background-color: green;
+}
+
+.warning{
+	@extend %message;
+		background-color:orange;
+}
+
+.neutral{
+	@extend %message;
+		background-color:grey;
+}
+
+.bad{
+	@extend %message;
+		background-color:red;
+}
+
+.container{
+	font-size:15px;
+	text-align:center;
+	p{
+		color:red;
+	}
+	img{
+		width:200px;
+		height:300px;
+	}
+}
+
+.tab{
+	margin-left:500px;
+	table > td{
+		width: 400px;
+		height: 300px;
+		opacity:0;
+	
+	}
+	
+	img{
+		width:300px;
+		height:200px;
+	}
+}

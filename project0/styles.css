@@ -1,0 +1,54 @@
+h2 {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.bad, .neutral, .warning, .good {
+  border: 2px solid black;
+}
+
+.good {
+  background-color: green;
+}
+
+.warning {
+  background-color: orange;
+}
+
+.neutral {
+  background-color: grey;
+}
+
+.bad {
+  background-color: red;
+}
+
+.container {
+  font-size: 15px;
+  text-align: center;
+}
+.container p {
+  color: red;
+}
+.container img {
+  width: 200px;
+  height: 300px;
+}
+
+.tab {
+  margin-left: 500px;
+}
+.tab table > td {
+  width: 400px;
+  height: 300px;
+  opacity: 0;
+}
+.tab img {
+  width: 300px;
+  height: 200px;
+}
+
+/*# sourceMappingURL=styles.css.map */

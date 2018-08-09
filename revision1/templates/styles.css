@@ -1,0 +1,23 @@
+h1 {
+  font-size: 18px;
+  color: red;
+}
+
+p {
+  font-size: 14px;
+  color: red;
+}
+
+.yes, .what {
+  font-size: 20px;
+}
+
+.what {
+  border: 1px solid yellow;
+}
+
+.yes {
+  border: 1px solid green;
+}
+
+/*# sourceMappingURL=styles.css.map */

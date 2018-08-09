@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block heading %}
+	Wow, you really chose to write that?
+{% endblock %}
+
+{% block body %}
+	<div class="what">
+		<p> {{ name }} </p>
+	</div>
+	<div class="yes">
+		<p> be ashamed! jk luv ya</p>
+	</div>
+	<a href="{{url_for('index')}}">Go back</a>
+	<a href="{{url_for('list')}}">Take a look at a list</a>
+{% endblock %}

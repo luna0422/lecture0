@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+
+{% block heading %}
+	Wow a list.. never seen that before
+{% endblock %}
+
+{% block body %}
+	<ul>
+		{% for list in list %}
+			<li> {{ list }} </li>
+		{% endfor %}
+	</ul>
+	<a href="{{url_for('index')}}">Go back</a>
+{% endblock %}
